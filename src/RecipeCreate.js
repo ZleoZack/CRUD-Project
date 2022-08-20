@@ -36,6 +36,7 @@ function RecipeCreate({ createRecipe }) {
           <tr>
             <td>
                 <input
+                  required
                   id="name"
                   type="text"
                   name="name"
@@ -46,6 +47,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td>
                 <input
+                  required
                   id="cuisine"
                   type="text"
                   name="cuisine"
@@ -56,6 +58,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td>
                 <input
+                  required
                   id="photo"
                   type="text"
                   name="photo"
@@ -66,6 +69,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td>
                 <textarea
+                  required
                   id="ingredients"
                   type="text"
                   name="ingredients"
@@ -76,6 +80,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td>
                 <textarea
+                  required
                   id="preparation"
                   type="text"
                   name="preparation"
